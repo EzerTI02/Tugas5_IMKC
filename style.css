@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar{
+    position: fixed;
+    z-index: 999;
+    color:#EADEDE;
+    width: 100%;
+    margin: auto;
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, .7);
+
+}
+
+.menu-bar .logo{
+    width: 100px;
+    color: #EADEDE;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.menu-bar ul li{
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #EADEDE;
+    
+}
+
+.menu-bar ul li a:hover{
+    color: white;
+    text-shadow:0 0 3px #fff;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    color: #EADEDE;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.75)), url("https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-position: center;
+    padding: 180px 0 100px 0;
+    color: #EADEDE;
+    text-align: center;
+    
+}
+
+.header h1{
+    font-size: 56px;
+    letter-spacing: 3px;
+}
+.header h2{
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 16px; 
+    margin-top: 5px;
+}
+
+.btn-wrapper{
+    margin-top: 20px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #EADEDE;
+    opacity: .8;
+}
+
+.btn-wrapper p{
+    margin-bottom: 10px;
+}
+
+.login{
+    background-color: #F58840;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 70px;
+}
+.facebook{
+    background-color: #4267B2;
+    color: white;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.google{
+    background-color: #EADEDE;
+    color: #222;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.content .side-content{
+    width: 20%;
+}
+
+.content .main-content{
+    width: 80%;
+    text-align: justify;
+}
+
+.content .main-content h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.content .main-content p{
+    font-size: 15px
+}
+
+.content{
+    display: flex;
+    padding: 20px 40px 20px 20px;
+    margin-bottom: 150px;
+}
+
+.content .main-content .gambar{
+    display: block;
+    height: 250px;
+    margin: 20px 30px 20px 30px;
+    border-radius: 5px;
+    float: left;
+}
+
+
+.footer{
+    height: 40px;
+    width: 100%;
+    background-color: #222;
+}
+
+.footer p{
+    text-align: center;
+    color:#EADEDE;
+    line-height: 40px;
+}
+
+
+
+.container02{
+    width: 100%;
+    height: 100vh;
+    color: #EADEDE;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.75)), url("https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0 100px 0;
+    color: #EADEDE;
+}
+
+
+.login-container{
+    width: 500px;
+    border: 1px solid #222;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(10, 10, 10, .5);
+}
+
+.login-container label{
+    font-size: 13px;
+}
+
+.login-container .login-content a{
+    color: #fa9755;
+    font-style: italic;
+    font-size: 12px;
+    float: right;
+}
+
+.login-container .login-header h1{
+    text-align: center;
+}
+
+.login-container .login-content label{
+    margin-top:10px;   
+}
+
+.login-container .login-content{
+    width: 300px;
+    margin: 20px auto;
+    
+}
+
+.login-container input{
+    width: 300px;
+    padding: 7px;
+    background-color: lightgray;
+    border: 1px solid grey;
+    border-radius: 2px;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.login-container .login-content .btn{
+    background-color: #F58840;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 12px 70px;
+}
+
+
+
+
+
+
+
